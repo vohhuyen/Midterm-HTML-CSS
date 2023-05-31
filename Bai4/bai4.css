@@ -1,0 +1,39 @@
+form{
+    box-shadow: 5px 5px 10px #AAA;
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #d3d1d1;
+    background-color: #f5f1f1;
+    font-family: Tahoma;
+}
+table{
+    margin: 10px;
+    width: 380px;
+    height: 300px;
+}
+.td-form{
+    float: right;
+    border-radius: 5px;
+    border-color: #d3d1d1;
+}
+.td-form-form{
+    height: 30px;
+}
+tr{
+    height: 30px;
+}
+.button-submit{
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white
+}
+.button-reset{
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+}

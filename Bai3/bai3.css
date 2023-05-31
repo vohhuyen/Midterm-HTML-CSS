@@ -1,0 +1,85 @@
+:root{
+    --pink-color: rgb(241, 197, 204);
+    --blue-color: rgb(187, 216, 239);
+    --width-page: 800px;
+    --width-content-left: 500px;
+    --width-content-right: calc(var(--width-page) - var(--width-content-left) - 10px );
+}
+.grid{
+    width: var(--width-page);
+    margin: 0 auto;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.page__header, .page_footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--pink-color);
+    height: 90px;
+    align-items: center;
+}
+.logo{
+    padding: 15px;
+    border: 1px solid black;
+    margin: 30px;
+}
+a{
+    margin: auto 8px;
+    color: black;
+}
+
+.hero{
+    background-color: var(--blue-color);
+    height: 300px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-header{
+    padding: 120px 250px;
+    border: 1px solid black;
+}
+
+/* content */
+.content{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.content_left{
+    width: var(--width-content-left);
+}
+.content_header_copy_footer, .aside{
+    margin-top: 5px;
+    background-color: var(--blue-color);
+}
+.aside{
+    height: 300px;
+}
+.text{
+    padding: 1px 20px;
+}
+.content_right{
+    width: var(--width-content-right);
+}
+.person{
+    display: flex;
+    .avatar{
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
+.link{
+    margin: 0;
+}
+.page_footer_follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

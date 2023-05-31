@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bai4.css">
+    <title>Bai 4</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" class="td-form td-form-form" size="35px" placeholder="Your full name"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" class="td-form td-form-form" size="35px" placeholder="Your email"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" class="td-form td-form-form" size="35px" placeholder="Your phone"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td class="td-form">
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="my_country" class="td-form" style="width: 270px; height: 30px">
+                        <option value="1">Viet Nam</option>
+                        <option value="2">USA</option>
+                        <option value="3">China</option>
+                        <option value="4">Garman</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td><textarea name="my_comment" class="td-form" cols="34px" rows="10" placeholder="Write something..."></textarea></td>
+            </tr>
+        </table>
+        <input type="reset" name="reset" value="Reset" class="button-reset td-form">
+        <input type="submit" name="submit" value="Submit" class="button-submit td-form">
+    </form>
+</body>
+</html>
